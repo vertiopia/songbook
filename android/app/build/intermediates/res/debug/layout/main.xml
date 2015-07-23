@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/main_background"
+    >
+
+<!--
+    <Button
+        android:id="@+id/a_to_z"
+        android:text="@string/a_to_z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1E1C1B"
+        />
+-->
+
+    <!--
+    <Button
+        android:id="@+id/categories"
+        android:text="@string/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1E1C1B"
+        />
+-->
+    <Button
+        android:id="@+id/by_number"
+        android:text="@string/by_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#1E1C1B"
+        />
+
+    <Button
+        android:id="@+id/a_to_z"
+        android:text="@string/title_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#1E1C1B"
+        />
+
+    <Button
+        android:id="@+id/lyrics_search"
+        android:text="@string/lyrics_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#1E1C1B"
+        />
+
+<!--   <Button
+        android:id="@+id/choose_song"
+        android:text="@string/choose_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1E1C1B"
+    />
+-->
+
+    <ImageButton
+        android:id="@+id/lang_setting"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/translate"/>
+
+</LinearLayout>
+<!-- From: file:/D:/Dropbox/AndroidTest/MidiTestClone/app/src/main/res/layout/main.xml -->
